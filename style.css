@@ -1,0 +1,142 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto:wght@100;300&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+     font-family: 'Roboto', sans-serif;
+}
+.body{
+    height: 100%;
+    background: linear-gradient(white,rgb(37, 37, 95));
+}
+nav{
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+   
+}
+nav li{
+    font-size: 2vw;
+    color: black;
+    font-family: 'Castoro Titling', serif;
+}
+.nav-link{
+    color: black;
+    margin-left: 15px;
+    font-family: 'Castoro Titling', serif;
+
+}
+.active{
+    margin-left: 40px;
+}
+.info{
+    margin-top: 10vh;
+    margin-left: 39vw;
+    font-size: 3vw;
+    font-family: 'Castoro Titling', serif;
+
+}
+.search{
+    margin-top: 1vh;
+    margin-left: 25vw;
+    margin-bottom: 10vh;
+    width: 35vw;
+    height: 6vh;
+    font-size: 4vh;
+    padding-left: 1vw;
+
+
+}
+.search-button{
+    height: 6vh;
+    width: 15vw;
+    /* margin-bottom: 0.2vw; */
+    background-color: azure;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.table{
+    text-decoration: none;
+    margin-left: 1vw;
+    
+}
+.table th{
+    background-color: transparent;
+    font-size: 2.5vw;
+    margin-left: 1vw;
+    font-family: 'Castoro Titling', serif;
+   
+}
+.table td{
+    background-color: transparent;
+    font-size: 2vw;
+   
+    
+}
+.password-td{
+    display: flex;
+}
+.table i{
+    margin-bottom: 1vh;
+    margin-left: 1.2vw;
+    text-align: center;
+    font-size: 2vw;
+    cursor: pointer;
+}
+.fa-eye{
+    margin-left: 10px;
+}
+.fa-trash{
+    padding-left: 7vw;
+}
+.add-info{
+    margin-top: 15vh;
+    font-family: 'Castoro Titling', serif;
+    margin-left: 1vw;
+    font-size: 3vw;
+    color: black;
+    font-weight: 500;
+}
+.form-label{
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+.mb-3{
+    background-color: transparent;
+    padding-top: 2vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.mb-3 input{
+    background-color: transparent;
+    font-size: 1vw;
+    color: black;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.mb-3 label{
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    height: 13vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer i{
+    color: white;
+    font-size: 3.5vh;
+    cursor: pointer;
+}
+.foottext{
+    height: 4vh;
+    text-align: center;
+    background-color: black;
+    color: gainsboro;
+    font-size: 2vh;
+    font-weight: 800;
+}
